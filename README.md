@@ -1,7 +1,8 @@
 # **CoSMix: Compositional Semantic Mix for Domain Adaptation in 3D LiDAR Segmentation [ECCV2022]**
 
 **I did some change to improve the outcome of the experiment and I added a generator and a discriminator.**
-使用球状投影并对投影后的2D图片对抗训练，投影后的可视化如下，分别为对SynLiDAR和SematicKITTI的可视化结果
+
+Using spherical projection and adversarial training on the projected 2D images, the visualizations are shown below, illustrating the results for SynLiDAR and SemanticKITTI, respectively.
 ![teaser]( SemanticKITTI.png)
 ![teaser](SynLiDAR.png)
 The official implementation of our work "CoSMix: Compositional Semantic Mix for Domain Adaptation in 3D LiDAR Segmentation".
